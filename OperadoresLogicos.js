@@ -18,25 +18,30 @@
 //   console.log("Falhou");
 // }
 
-// 2 ler uma variável do tipo texto e exibir uma mensagem se o valor da variável for “casa” ou “tartaruga”. Senão, outra mensagem deve ser exibida.
-
-let text = "tartaruga";
-if(text == "casa" || text == "tartaruga"){
-    console.log("casa ou tartaruga");
+function ex02CasaOuTartaruga(){
+    let text = "tartaruga";
+    if(text == "casa" || text == "tartaruga"){
+        console.log("casa ou tartaruga");
+    }
+    else{
+        console.log("a variável é outra");
+    }
 }
-else{
-    console.log("a variável é outra");
+
+function ex03(){
+    let num3 = 50;
+    let num4 = 2;
+    const resultado = num3*num4;
+    
+    if(resultado != 100){
+        console.log("Diferente");
+    }
+    else{
+        console.log("Igual");
+    }
 }
 
-// 3 multiplicar dois valores, e exibir uma mensagem se o resultado for diferente de 100. Senão, outra mensagem deve ser exibida.
 
-let num3 = 50;
-let num4 = 2;
-const resultado = num3*num4;
 
-if(resultado != 100){
-    console.log("Diferente");
-}
-else{
-    console.log("Igual");
-}
+
+
