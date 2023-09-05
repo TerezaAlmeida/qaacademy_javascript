@@ -18,6 +18,6 @@ describe('Validar site Google', () => {
     cy.get('[id="APjFqb"]').type('onça').type('{ENTER}');
 
     //Clicar em algum link de onça
-    
+
   })
 })
