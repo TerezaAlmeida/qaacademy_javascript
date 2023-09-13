@@ -1,0 +1,11 @@
+Arquivo .feature
+
+-------------
+npm install --save-dev cypress-cucumber-preprocessor - extra
+npm init -> package json
+npm install --save-dev @cucumber/cucumber     -> node_modules
+-----------
+.\node_modules\.bin\cucumber-js
+.gitignore -> add o node_modules
+
+
