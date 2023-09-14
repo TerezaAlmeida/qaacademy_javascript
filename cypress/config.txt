@@ -20,7 +20,6 @@ Criar o arquivo .feature - Identação
 npm init -> package json
 npm install --save-dev cypress-cucumber-preprocessor
 
-- Criar pasta plugins -> arquivo index.js -> add o código
 - Cria o arquivo cypress.config.js -> adiciona o conteúdo dele
 - package.json add o comando depois das dependencies:
 "cypress-cucumber-preprocessor": {
