@@ -26,7 +26,7 @@ npm install --save-dev cypress-cucumber-preprocessor
 "cypress-cucumber-preprocessor": {
   "nonGlobalStepDefinitions": true
 }
-- Criar o arquivo da pasta Steps e adicionar a importação
-- roda o npx cypress open e executa o arquivo steps
+- Criar o arquivo da pasta Steps e adicionar o arquivo .spec + o código
+- roda o npx cypress open e executa o arquivo .feature
 
 
