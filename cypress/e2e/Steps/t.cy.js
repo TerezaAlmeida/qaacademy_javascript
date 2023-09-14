@@ -1,17 +1,19 @@
-
+/// <reference types="Cypress" />
 import {Given,When,Then} from "cypress-cucumber-preprocessor/steps"
 
 Given('Ok', function () {
-    return console.log("GIVEN está funcionando");
+    cy.visit("https://www.google.com");
   });
 
 
 
 When('ko', function () {
-    return console.log('When aqui');
+    cy.get('[class="gLFyf"]').click();
+    cy.get('[class="gLFyf"]').type("Casa na natureza").type("{ENTER}");
 });
 
 
 Then('NOK', function () {
-    return console.log('Thennnn');
+    cy.get('[class="uhHOwf BYbUcd"]').eq(0).click();
+    cy.contains('Airbnb Newsroom').should('be.visible');
 });
