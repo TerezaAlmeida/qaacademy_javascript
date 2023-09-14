@@ -16,6 +16,11 @@ npm install --save-dev @cucumber/cucumber     -> node_modules
 
 -------------SECOND--------------
 Criar o arquivo .feature - Identação 
+Create your .feature file in ./src/integration
+Create a folder with the same name as your .feature file, also in cypress/integration
+Create a .js file in the newly created folder with your step definitions
+
+-----------------------
 
 npm init -> package json
 npm install --save-dev cypress-cucumber-preprocessor
