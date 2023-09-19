@@ -1,18 +1,3 @@
-Arquivo .feature - Identação 
-
--------------
-npm init -> package json
-npm install --save-dev cypress-cucumber-preprocessor - extra
-
-npm install --save-dev @cucumber/cucumber     -> node_modules
------------
-.\node_modules\.bin\cucumber-js
-.gitignore -> add o node_modules
-
-------------
-.\node_modules\.bin\cucumber-js cypress\e2e\Features\t.feature
-
-
 
 -------------SECOND--------------
 Criar o arquivo .feature - Identação 
